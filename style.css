@@ -1,24 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: lightgray;
 }
 
 .big-blue-header {
     height: 300px;
-    width: 80%;
+    width: 850px;
     background-color: rgb(48, 61, 114);
     margin: 0 auto;
+    
 }
 
 .navbar {
-    width: 80%;
+    
+    width: 850px;
     height: 75px;
     margin: 0 auto;
     background-color: white;
+    color: black;
+    
 }
 
+p {
+    float: right;
+}
+
+li {
+padding: 5px;
+float: left;
+
+}
+
+
+ul { 
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    top: 5px;
+    left: 230px;
+}
+
+
 .profile-photo {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
+    border-radius: 1.75%;
     background-color:rgb(48, 61, 114);
+    position: relative;
+    top: 150px;
+    left: 30px
 }
